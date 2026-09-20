@@ -23,8 +23,11 @@ Experience the adventure and intrigue of Daggerfall with all of its original cha
 
 Daggerfall Unity requires a free copy of DOS Daggerfall to run. This provides all necessary game assets such as textures, 3D models, and sound effects.
 
-You can get a free copy of DOS Daggerfall from [Steam](https://store.steampowered.com/app/1812390/The_Elder_Scrolls_II_Daggerfall/) and a free copy of Daggerfall Unity from the [Releases](https://github.com/Interkarma/daggerfall-unity/releases) page. Then simply unzip the latest version of Daggerfall Unity to its own folder and point it to the DOS version. Daggerfall Unity will take care of everything else.
-
+You can get a free copy of DOS Daggerfall from [Steam](https://store.steampowered.com/app/1812390/The_Elder_Scrolls_II_Daggerfall/) and a free copy of Daggerfall Unity from the [Releases](https://github.com/Interkarma/daggerfall-unity/releases) page. Then simply unzip the latest version of Daggerfall Unity to its own folder and point it to the DOS version. Daggerfall Unity will take care of everything else. for this version you'll need to add 
+Loopmidi: (https://www.tobias-erichsen.de/software/loopmidi.html) 
+Nuked SC 55: (https://github.com/nukeykt/Nuked-SC55)
+Emu88 for SC-88 Emulation: (https://github.com/dsp56300/gearmulator/releases/download/2.2.25/TheUsualSuspects-88emuPlayer-Standalone-2.2.25-win64.zip)
+Coolsoft Midi Mapper: (https://coolsoft.altervista.org/en/midimapper)
 Here are a couple of links with more detailed steps to help you get started using either Steam or a cross-platform process.
 
 + [Using Steam Release of Daggerfall with Daggerfall Unity](https://github.com/Interkarma/daggerfall-unity/wiki/Using-Steam-Release-of-Daggerfall-with-Daggerfall-Unity)
@@ -32,19 +35,25 @@ Here are a couple of links with more detailed steps to help you get started usin
 
 # System Requirements
 
-Daggerfall Unity has the following system requirements. Please note that optional mods may substantially increase system requirements or cause game to become less stable.
+Daggerfall Unity has the following system requirements. Please note that optional mods may substantially increase system requirements or cause game to become less stable. Midi support is currently only for windows.. if i get around to it i'll add linux support... maybe..
 
 ### Minimum
 * Operating system: Windows, Linux, MacOS
 * Processor: Intel i3 (Skylake) equivalent
 * Graphics: DirectX 11 capable with 1GB video memory and up-to-date drivers
 * Memory: 2GB system RAM
+* Synthesizer: Nuked-SC55 or 88Emu at least
+* LoopMidi: for connecting Emulated Midi hardware to the program
+* Coolsoft Midi Mapper: Needed to choose what Midi device is the system default.
 
 ### Recommended
 * Operating system: Windows, Linux, MacOS
 * Processor: Intel i5 (Skylake) equivalent
 * Graphics: GTX 660 with 2GB video memory and up-to-date drivers
 * Memory: 4GB system RAM
+* Synthesizer: Nuked-SC55 or 88Emu at least
+* LoopMidi: for connecting Emulated Midi hardware to the program
+* Coolsoft Midi Mapper: Needed to choose what Midi device is the system default.
 
 # Featured Mods
 
